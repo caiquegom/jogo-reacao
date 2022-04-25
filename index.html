@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo reação</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Jogo velocidade de reação</h1>
+        <p>Clique nos quadrados vermelhos</p>
+    </header>
+
+    <button id="start">COMEÇAR</button>
+
+    <div id="main">
+        <div id="blocks">
+            <p id="countdown"></p>
+            <section>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </section>
+            <section>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </section>
+            <section>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </section>
+        </div>
+        <p id="score">Pontuação: 0</p>
+    </div>
+    
+    <button id="tryAgain">TENTAR NOVAMENTE</button>
+
+    <div id="difficultSelector">
+        <h2>DIFICULDADE</h2>
+        <img src="./assets/images/left-arrow.png">
+        <p id="level">Fácil</p>
+        <img src="./assets/images/right-arrow.png">
+    </div>
+
+    <div id="audios">
+        <audio src="./assets/sounds/countdown.wav" id="countdownSFX"></audio>
+        <audio src="./assets/sounds/right_click.wav" id="correctSFX"></audio>
+        <audio src="./assets/sounds/game_lost.wav" id="loseSFX"></audio>
+    </div>
+</body>
+</html>

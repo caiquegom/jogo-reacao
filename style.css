@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#start {
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 120px;
+}
+
+#difficultSelector {
+    margin-top: 50px;
+}
+
+#difficultSelector h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#difficultSelector p {
+    display: inline;
+    margin: 0 15px;
+    font-size: 30px;
+    color: blue;
+}
+
+img {
+    display: inline-block;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+header {
+    font-size: 23px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+header p {
+    font-size: 20px
+}
+
+#main {
+    display: none;
+}
+
+#blocks {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#countdown {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem
+}
+
+.block {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+p {
+    font-size: 2rem;
+}
+
+
+#tryAgain {
+    display: none;
+    margin: 35px auto 10px auto;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 555px) {
+    h1 {
+        font-size: 30px
+    }
+}
+
