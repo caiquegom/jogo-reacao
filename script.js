@@ -3,7 +3,7 @@ let numeroAnterior;
 let intervalo = null;
 let pontos = 0;
 let difficultIndex = 0;
-let velocidade;
+let velocidade = 700;
 const start = document.getElementById("start");
 const countdown = document.getElementById('countdown')
 const game = document.getElementById("main");
